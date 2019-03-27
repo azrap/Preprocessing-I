@@ -134,25 +134,31 @@ html,
 body {
   height: 100%;
   font-family: Arial, Helvetica, sans-serif;
-  color: rgb(97, 94, 94);
- 
+  color: #615e5e;
 }
-
 header {
   width: 95%;
-  border: black solid 1px;
-  
+  justify-content: flex-end;
 }
-
-.header-img {
+header nav {
+  width: 40%;
+  margin-top: 1.5%;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+}
+header nav a {
+  color: #615e5e;
+}
+header .header-content {
+  border: lightgrey solid 2px;
+  padding: 2.5%;
+  margin: 2.5%;
+  width: 95%;
+  color: #615e5e;
+}
+header .header-img {
   width: 30%;
   height: auto;
   border-radius: 100%;
-  }
-  
-
-.header-content {
-
 }
-
-
