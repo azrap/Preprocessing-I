@@ -159,12 +159,11 @@ header .header-content {
   padding: 2.5%;
   margin: 2.5%;
   width: 95%;
-  height: 100px;
 }
 header .header-content .header-img {
   width: 30%;
   height: auto;
-  border-radius: 10%;
+  border-radius: 100%;
 }
 header .header-content .header-text {
   width: 50%;
