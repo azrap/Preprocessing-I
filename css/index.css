@@ -133,11 +133,26 @@ table {
 html,
 body {
   height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(97, 94, 94);
  
 }
 
-header .header-img {
-width: 30%;
-height: auto;
-border-radius: 100%;
+header {
+  width: 95%;
+  border: black solid 1px;
+  
 }
+
+.header-img {
+  width: 30%;
+  height: auto;
+  border-radius: 100%;
+  }
+  
+
+.header-content {
+
+}
+
+
