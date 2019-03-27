@@ -164,9 +164,8 @@ header .header-content {
 header .header-content .header-img {
   width: 30%;
   height: auto;
-  border-radius: 100%;
+  border-radius: 10%;
 }
 header .header-content .header-text {
   width: 50%;
-  height: 30%;
 }
