@@ -130,6 +130,7 @@ table {
 * {
   box-sizing: border-box;
 }
+/* mixins */
 html,
 body {
   height: 100%;
@@ -138,6 +139,8 @@ body {
 }
 header {
   width: 95%;
+  display: flex;
+  flex-wrap: wrap;
   justify-content: flex-end;
 }
 header nav {
@@ -145,6 +148,7 @@ header nav {
   margin-top: 1.5%;
   height: auto;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
 }
 header nav a {
@@ -155,10 +159,14 @@ header .header-content {
   padding: 2.5%;
   margin: 2.5%;
   width: 95%;
-  color: #615e5e;
+  height: 100px;
 }
-header .header-img {
+header .header-content .header-img {
   width: 30%;
   height: auto;
   border-radius: 100%;
+}
+header .header-content .header-text {
+  width: 50%;
+  height: 30%;
 }
