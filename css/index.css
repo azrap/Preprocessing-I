@@ -193,3 +193,31 @@ header .header-content .header-text p {
   display: flex;
   flex-wrap: wrap;
 }
+.main-content .summary {
+  margin: 2.2%;
+}
+.main-content .summary h2 {
+  font-size: 2em;
+  padding: 1%;
+}
+.main-content .summary p {
+  width: 80%;
+  height: auto;
+  font-size: 1rem;
+  margin: 1rem;
+  line-height: 1.5rem;
+}
+.main-content .tech-learned {
+  margin: 2.2%;
+  width: 60%;
+}
+.main-content .tech-learned h2 {
+  font-size: 2em;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+}
+.main-content .tech-learned ul {
+  font-size: 1.3rem;
+  margin: 0.5rem 2.8rem;
+  line-height: 2.8rem;
+}
